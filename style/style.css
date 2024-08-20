@@ -132,6 +132,10 @@ main a{
     text-decoration: none;
 }
 
+main a::before{
+    content: "🔗";
+}
+
 main a:hover{
     text-decoration: underline;
 }
